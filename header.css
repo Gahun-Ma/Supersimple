@@ -54,9 +54,7 @@
   font-size:16px;
   box-shadow: inset 1px 2px 2px rgb(0,0,0,0.1);
 }
-.search-bar::placeholder{
-  font-family:roboto,arial;
-}
+
 .search-icon{
   height:25px;
 }
@@ -155,7 +153,7 @@
   right:-5.5px;
   background-color:rgb(221, 0, 0);
   color:white;
-  font-family:roboto,arial;
+  
   font-size:12px;
   padding-left:6px;
   padding-right:6px;
@@ -166,4 +164,8 @@
 .channel-picture{
   height:32px;
   border-radius:16px;
+}
+.upload,.youtube-apps,.notifications-icon-container,.channel-picture,
+.voice-button,.search-button{
+  cursor:pointer;
 }
